@@ -16,3 +16,8 @@
 0:0:0:0:0:0:0:1 - - [19/May/2017:15:36:44 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 200 5
 0:0:0:0:0:0:0:1 - - [19/May/2017:15:37:25 +0530] "GET /CollaborationRestServices/getBlogByUserid/43 HTTP/1.1" 500 4080
 0:0:0:0:0:0:0:1 - - [19/May/2017:15:41:15 +0530] "GET /CollaborationRestServices/getBlogByUserid/43 HTTP/1.1" 500 4104
+127.0.0.1 - - [19/May/2017:15:49:34 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [19/May/2017:15:49:36 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [19/May/2017:15:49:42 +0530] "GET /CollaborationRestServices/getBlogByUserid/43 HTTP/1.1" 200 614
+0:0:0:0:0:0:0:1 - - [19/May/2017:15:59:30 +0530] "GET /CollaborationRestServices/login/mohit.agarwal@gmail.com/mohit@12 HTTP/1.1" 405 1088
+0:0:0:0:0:0:0:1 - - [19/May/2017:15:59:42 +0530] "POST /CollaborationRestServices/login/mohit.agarwal@gmail.com/mohit@12 HTTP/1.1" 200 282
