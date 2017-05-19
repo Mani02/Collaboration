@@ -1,0 +1,5 @@
+package com.niit.CollaborationBackEnd.DaoImpl;
+
+public class BlogDaoImpl {
+
+}

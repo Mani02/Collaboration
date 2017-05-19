@@ -1,0 +1,4 @@
+com\niit\CollaborationRestServices\controller\UserController.class
+com\niit\CollaborationRestServices\controller\BlogController.class
+com\niit\CollaborationRestServices\config\WebAppInitializer.class
+com\niit\CollaborationRestServices\config\WebConfig.class

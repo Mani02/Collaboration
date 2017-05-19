@@ -1,0 +1,12 @@
+127.0.0.1 - - [12/May/2017:16:04:17 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/May/2017:16:04:20 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [12/May/2017:16:04:42 +0530] "POST /CollaborationRestServices/login/23/Apee1 HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [12/May/2017:16:05:59 +0530] "POST /CollaborationRestServices/login/22/mohit@12 HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [12/May/2017:16:06:22 +0530] "POST /CollaborationRestServices/login/22/mohit HTTP/1.1" 200 260
+0:0:0:0:0:0:0:1 - - [12/May/2017:16:06:32 +0530] "POST /CollaborationRestServices/login/22/mohit@12 HTTP/1.1" 200 261
+0:0:0:0:0:0:0:1 - - [12/May/2017:18:52:45 +0530] "POST /CollaborationRestServices/login/43/Sky1 HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [12/May/2017:18:53:03 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [12/May/2017:18:55:11 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 404 992
+127.0.0.1 - - [12/May/2017:18:56:38 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [12/May/2017:18:56:39 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [12/May/2017:18:56:54 +0530] "POST /CollaborationRestServices/login/43/Sky1 HTTP/1.1" 200 261

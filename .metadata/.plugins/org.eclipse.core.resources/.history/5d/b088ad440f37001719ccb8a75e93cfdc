@@ -1,0 +1,90 @@
+package com.niit.CollaborationBackEnd.testCase;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.niit.CollaborationBackEnd.Dao.UserDao;
+import com.niit.CollaborationBackEnd.model.User;
+
+import junit.framework.Assert;
+
+public class UserTestCase {
+
+	@Autowired
+	public static AnnotationConfigApplicationContext context;
+
+	@Autowired
+	public static User user;
+
+	@Autowired
+	public static UserDao userDao;
+
+	@BeforeClass
+	public static void init() {
+		context = new AnnotationConfigApplicationContext();
+		context.scan("com.niit");
+		context.refresh();
+
+		user = (User) context.getBean("user");
+
+		userDao = (UserDao) context.getBean("userDao");
+
+	}
+
+	@Test
+	public void createUserTestCase() {
+
+		user.setName("Shreya");
+		user.setPassword("Sky1");
+		user.setRole("Student");
+		user.setStatus('A');
+		user.setGender('F');
+		user.setIsOnline('O');
+		user.setAddress("North Kolkata");
+		user.setEmailId("shreya@gmail.com");
+		user.setMobile("9004050123");
+		boolean flag = userDao.insertUser(user);
+
+		assertEquals("createUserTestCase ", true, flag);
+	}
+
+	/*
+	 * 
+	 * @Test public void updateUserTestCase() { user.setName("Manideepa");
+	 * user.setPassword("Apee1"); user.setRole("Student"); user.setAddress(
+	 * "North Kolkata"); user.setEmailId("mani@gmail.com");
+	 * user.setMobile("9004022123");
+	 * 
+	 * boolean flag = userDao.updateUser(user);
+	 * 
+	 * assertEquals("updateUserTestCase", true, flag); }
+	 */
+
+	/*
+	 * @Test public void getUserByEmailTestCase() { int flag = 0; user =
+	 * userDao.getUserByEmail("mani@gmail.com"); if (user != null) { flag++;
+	 * assertEquals("getUserByEmailTestCase", 1, flag); } else {
+	 * assertEquals("getUserByEmailTestCase", 0, flag); }
+	 * 
+	 * }
+	 */
+	/*@Test
+	public void getAllUsersTestCase() {
+		List<User> users = userDao.getAllUser();
+		assertEquals("getAllUsersTestCase", 3, users.size());
+	}*/
+
+	// @Test
+	// public void deleteUserTestCase(){
+	// boolean flag=userDao.deleteUser(user);
+	// assertEquals("deleteUserTestCase",flag,true);
+
+	// }
+
+}
