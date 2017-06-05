@@ -28,7 +28,7 @@ public class User extends BaseDomain{
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private int userId;
 	
-	private String name;
+	private String userName;
 	
 	private String role;
 	
@@ -38,7 +38,7 @@ public class User extends BaseDomain{
 	
 	private char status;
 	
-	private char gender;
+	private String gender;
 	
 	private char isOnline;
 	
@@ -67,13 +67,14 @@ public class User extends BaseDomain{
 	public void setUserId(int userId) {
 		this.userId = userId;
 	}
+	
 
-	public String getName() {
-		return name;
+	public String getUserName() {
+		return userName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 	public String getRole() {
@@ -110,11 +111,11 @@ public class User extends BaseDomain{
 		this.status = status;
 	}
 
-	public char getGender() {
+	public String getGender() {
 		return gender;
 	}
 
-	public void setGender(char gender) {
+	public void setGender(String gender) {
 		this.gender = gender;
 	}
 

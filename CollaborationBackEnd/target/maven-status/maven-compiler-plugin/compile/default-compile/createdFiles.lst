@@ -1,8 +1,11 @@
 com\niit\CollaborationBackEnd\model\BaseDomain.class
 com\niit\CollaborationBackEnd\model\Blog.class
+com\niit\CollaborationBackEnd\Dao\BlogCommentsDao.class
 com\niit\CollaborationBackEnd\DaoImpl\BlogDaoImpl.class
 com\niit\CollaborationBackEnd\model\User.class
 com\niit\applicationContextConfig\ApplicationContextConfig.class
+com\niit\CollaborationBackEnd\model\BlogComments.class
+com\niit\CollaborationBackEnd\DaoImpl\BlogCommentsDaoImpl.class
 com\niit\CollaborationBackEnd\Dao\UserDao.class
 com\niit\CollaborationBackEnd\DaoImpl\UserDaoImpl.class
 com\niit\CollaborationBackEnd\Dao\BlogDao.class

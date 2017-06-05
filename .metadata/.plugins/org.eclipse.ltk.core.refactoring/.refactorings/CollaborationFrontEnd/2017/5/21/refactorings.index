@@ -1,0 +1,36 @@
+1495448626486	Delete element
+1495448788012	Rename resource 'jsp_pages'
+1495448852959	Delete element
+1495450969663	Delete element
+1495452396925	Delete element
+1495453032047	Delete element
+1495453037859	Delete element
+1495453131918	Delete element
+1495453189422	Delete element
+1495461620674	Delete element
+1495623079427	Move 'Views' to 'WebContent'
+1495623209609	Move 'js_pages' to 'WebContent'
+1495623237773	Move 'lib' to 'WebContent'
+1495623419874	Move 'index.html' to 'WebContent'
+1495719773002	Rename resource 'home.html'
+1495780013711	Move 'header.html' to 'Views'
+1495878903821	Delete element
+1495879141544	Delete element
+1495879148289	Delete element
+1495879225421	Delete element
+1495879247400	Delete element
+1495879262573	Delete element
+1495879428360	Move 'angular-1.6.4' to 'js'
+1495880548079	Delete element
+1495880719661	Delete element
+1495881111756	Delete element
+1495885204908	Delete element
+1495896598485	Rename resource 'Home.html'
+1495896616030	Rename resource 'Views'
+1495896671637	Move 'blog.html' to 'c_blog'
+1495907985131	Move 'UserController.js' to 'c_user'
+1495907989768	Move 'UserService.js' to 'c_user'
+1495907998321	Delete element
+1495911345764	Delete element
+1495911443727	Move 'footer.html' to 'home'
+1495911447678	Move 'header.html' to 'home'

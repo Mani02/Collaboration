@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BlogTestCase" project="CollaborationBackEnd" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.niit.CollaborationBackEnd.testCase.BlogTestCase" time="1.287">
+    <testcase name="getAllBlogsTestCase" classname="com.niit.CollaborationBackEnd.testCase.BlogTestCase" time="0.927"/>
+    <testcase name="createBlogTestCase" classname="com.niit.CollaborationBackEnd.testCase.BlogTestCase" time="0.36"/>
+  </testsuite>
+</testrun>

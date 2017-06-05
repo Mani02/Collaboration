@@ -1,9 +1,12 @@
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\model\Blog.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\model\User.java
+E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\DaoImpl\BlogCommentsDaoImpl.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\DaoImpl\BlogDaoImpl.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\model\BaseDomain.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\model\Job.java
+E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\Dao\BlogCommentsDao.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\Dao\UserDao.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\Dao\BlogDao.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\applicationContextConfig\ApplicationContextConfig.java
 E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\DaoImpl\UserDaoImpl.java
+E:\Moni\CollaborationBackEnd\src\main\java\com\niit\CollaborationBackEnd\model\BlogComments.java

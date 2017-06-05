@@ -63,7 +63,7 @@ public class BlogDaoImpl implements BlogDao{
 	}
 
 	public List<Blog> getBlogByUserId(int userId) {
-		return (List<Blog>) sessionFactory.getCurrentSession().createQuery("from User where userId='"+userId+"'").list();
+		return (List<Blog>) sessionFactory.getCurrentSession().createQuery("from Blog where userId='"+userId+"'").list();
 	}
 
 }

@@ -4006,3 +4006,603 @@ java.lang.IllegalArgumentException: null
 2017-05-19 15:57:57,856 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-05-19 15:57:57,859 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-05-19 15:57:57,875 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-22 14:42:43,330 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-22 14:42:43,379 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-22 14:42:43,379 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-22 14:42:43,435 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-24 14:59:56,960 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 14:59:57,053 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-24 14:59:57,059 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 14:59:57,076 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-24 15:17:17,982 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 15:17:18,070 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-24 15:17:18,075 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 15:17:18,101 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-24 15:17:42,926 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-24 15:17:50,672 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationRestServices:0.0.1-SNAPSHOT @ E:\Moni\CollaborationRestServices\pom.xml.
+2017-05-24 15:17:56,417 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/main/java
+2017-05-24 15:17:56,418 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CollaborationRestServices/src/main/resources
+2017-05-24 15:17:56,420 [Worker-27] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/test/java
+2017-05-24 15:18:00,048 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CollaborationRestServices
+2017-05-24 15:18:00,063 [Worker-27] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 17 sec
+2017-05-24 15:18:02,038 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 15:18:02,064 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-24 15:18:02,069 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-24 15:18:02,087 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-24 15:18:02,088 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CollaborationRestServices
+2017-05-24 15:18:02,091 [Worker-1] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CollaborationRestServices
+2017-05-24 15:18:02,222 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 15:06:54,324 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 15:06:54,364 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 15:06:54,370 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 15:06:54,385 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-25 18:26:56,792 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 18:26:56,797 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-25 18:26:56,800 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-25 18:26:56,801 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-25 18:27:02,838 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 18:27:02,937 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 18:27:02,942 [Worker-123] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 18:27:02,964 [Worker-123] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-25 19:16:38,349 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 19:16:38,373 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-25 19:16:38,378 [Worker-152] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-25 19:16:38,393 [Worker-152] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-26 10:55:08,476 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:55:08,496 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-26 10:55:08,498 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 10:55:08,499 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-26 10:55:16,481 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-26 10:55:16,515 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-26 10:55:16,527 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-26 10:55:16,660 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-26 11:40:19,747 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:40:19,749 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-26 11:40:19,752 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-26 11:40:19,753 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-26 15:26:08,031 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-26 15:26:08,124 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-26 15:26:08,134 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-26 15:26:08,151 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-27 09:45:30,194 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-27 09:45:30,266 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-27 09:45:30,270 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-27 09:45:30,296 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-27 19:22:18,078 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-27 19:22:18,166 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-27 19:22:18,181 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-27 19:22:18,208 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-28 10:54:32,509 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-28 10:54:32,560 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-28 10:54:32,569 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-28 10:54:32,592 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 14:24:32,023 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 14:24:32,081 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 14:24:32,086 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 14:24:32,101 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 15:25:55,619 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 15:25:55,787 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 15:25:55,791 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 15:25:55,815 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 16:51:43,560 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 16:51:43,598 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 16:51:43,603 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 16:51:43,679 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 16:53:22,504 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 16:53:22,532 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 16:53:22,538 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 16:53:22,562 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 17:20:26,258 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:20:26,259 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 17:20:26,263 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:20:26,264 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 17:23:49,307 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:23:49,307 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 17:23:49,314 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:23:49,315 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 17:29:55,526 [Worker-123] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-29 17:30:07,414 [Worker-123] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-05-29 17:30:09,748 [Worker-123] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-05-29 17:30:09,750 [Worker-123] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-05-29 17:30:11,074 [Worker-123] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 15 sec
+2017-05-29 17:30:13,058 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:30:13,059 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 17:30:13,063 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:30:13,064 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 17:52:47,273 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:52:47,273 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 17:52:47,276 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:52:47,277 [Worker-125] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 17:53:37,945 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:53:37,946 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 17:53:37,949 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 17:53:37,950 [Worker-134] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:00:42,118 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:00:42,118 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:00:42,121 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:00:42,121 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:01:18,538 [Worker-136] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-29 18:01:20,269 [Worker-136] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-05-29 18:01:20,944 [Worker-136] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-05-29 18:01:20,945 [Worker-136] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-05-29 18:01:21,365 [Worker-136] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-05-29 18:01:22,111 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:01:22,111 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:01:22,113 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:01:22,113 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:06:34,662 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:06:34,663 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:06:34,673 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:06:34,674 [Worker-145] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:07:35,923 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:07:35,924 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:07:35,927 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:07:35,928 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:10:30,962 [Worker-145] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-29 18:10:33,207 [Worker-145] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-05-29 18:10:34,039 [Worker-145] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-05-29 18:10:34,040 [Worker-145] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-05-29 18:10:34,667 [Worker-145] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-05-29 18:10:35,625 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:10:35,625 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:10:35,627 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:10:35,627 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:48:58,617 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:48:58,625 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:48:58,631 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:48:58,632 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:49:31,784 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:49:31,785 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-29 18:49:31,788 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-29 18:49:31,789 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-29 18:49:31,946 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 18:49:32,012 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 18:49:32,015 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 18:49:32,048 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 18:50:34,506 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 18:50:34,524 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 18:50:34,527 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 18:50:34,543 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-29 18:52:56,162 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 18:52:56,185 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-29 18:52:56,188 [Worker-162] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-29 18:52:56,210 [Worker-162] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-30 14:24:27,841 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:24:27,882 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-30 14:24:27,889 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-30 14:24:27,905 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-05-30 15:10:17,856 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 15:10:17,861 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-30 15:10:17,864 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 15:10:17,864 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-30 15:13:44,834 [Worker-46] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-05-30 15:13:53,092 [Worker-46] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-05-30 15:13:54,760 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-05-30 15:13:54,763 [Worker-46] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-05-30 15:13:56,132 [Worker-46] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2017-05-30 15:13:57,670 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 15:13:57,671 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-05-30 15:13:57,673 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-30 15:13:57,674 [Worker-48] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-05-31 14:37:41,435 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:37:41,481 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-05-31 14:37:41,487 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-05-31 14:37:41,504 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-01 15:11:08,402 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:11:08,496 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-01 15:11:08,504 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:11:08,522 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-01 15:58:29,117 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:58:29,182 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-01 15:58:29,186 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:58:29,221 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-01 15:58:50,169 [Worker-44] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-01 15:58:57,397 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationRestServices:0.0.1-SNAPSHOT @ E:\Moni\CollaborationRestServices\pom.xml.
+2017-06-01 15:59:02,523 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/main/java
+2017-06-01 15:59:02,524 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CollaborationRestServices/src/main/resources
+2017-06-01 15:59:02,525 [Worker-44] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/test/java
+2017-06-01 15:59:04,332 [Worker-44] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CollaborationRestServices
+2017-06-01 15:59:04,337 [Worker-44] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2017-06-01 15:59:05,404 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:59:05,577 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-01 15:59:05,580 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 15:59:05,667 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-01 15:59:05,667 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CollaborationRestServices
+2017-06-01 15:59:05,668 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CollaborationRestServices
+2017-06-01 15:59:05,751 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-01 18:40:05,920 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:40:05,923 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:40:05,927 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:40:05,928 [Worker-136] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:41:04,696 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:41:04,697 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:41:04,702 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:41:04,703 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:42:04,934 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:42:04,935 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:42:04,938 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:42:04,939 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:47:13,322 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:47:13,323 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:47:13,327 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:47:13,327 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:48:06,602 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:48:06,602 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:48:06,607 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:48:06,608 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:52:15,850 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:52:15,852 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:52:15,856 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:52:15,856 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:54:05,803 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:54:05,804 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:54:05,806 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:54:05,806 [Worker-139] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 18:54:54,528 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:54:54,529 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 18:54:54,538 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 18:54:54,539 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 19:06:26,103 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 19:06:26,103 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 19:06:26,106 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 19:06:26,107 [Worker-143] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-01 19:08:54,525 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 19:08:54,525 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-01 19:08:54,529 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-01 19:08:54,529 [Worker-148] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 14:33:00,646 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:33:00,662 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 14:33:00,669 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:33:00,670 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 14:33:26,148 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:33:26,150 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 14:33:26,155 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:33:26,156 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 14:35:13,202 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:35:13,203 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 14:35:13,208 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:35:13,208 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 14:43:34,746 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:43:34,747 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 14:43:34,749 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:43:34,750 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 14:50:19,162 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:50:19,162 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 14:50:19,165 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 14:50:19,165 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:03:43,566 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:03:43,567 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:03:43,570 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:03:43,570 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:10:16,170 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:10:16,171 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:10:16,175 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:10:16,175 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:10:30,289 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 15:10:39,957 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 15:10:42,276 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 15:10:42,279 [Worker-23] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 15:10:45,833 [Worker-23] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 15 sec
+2017-06-02 15:10:48,362 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:10:48,362 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:10:48,367 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:10:48,368 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:11:41,922 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Moni\CollaborationBackEnd
+2017-06-02 15:11:41,924 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean compile install
+2017-06-02 15:14:55,277 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:14:55,278 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:14:55,280 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:14:55,281 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:14:56,520 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:14:56,520 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:14:56,524 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:14:56,524 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:15:06,135 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 15:15:08,623 [Worker-26] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 15:15:11,231 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 15:15:11,236 [Worker-26] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 15:15:11,821 [Worker-26] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2017-06-02 15:15:12,658 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:15:12,659 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:15:12,661 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:15:12,662 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:15:27,499 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 15:15:29,738 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 15:15:31,074 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 15:15:31,075 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 15:15:31,994 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2017-06-02 15:15:33,070 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:15:33,071 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:15:33,073 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:15:33,074 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:15:44,047 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - E:\Moni\CollaborationBackEnd
+2017-06-02 15:15:44,048 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B clean compile install
+2017-06-02 15:28:48,913 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:28:48,914 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:28:48,918 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:28:48,919 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:29:56,400 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:29:56,401 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:29:56,404 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:29:56,405 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:29:58,652 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:29:58,653 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:29:58,656 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:29:58,657 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:35:02,685 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:35:02,685 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:35:02,688 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:35:02,689 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:39:49,083 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:39:49,084 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:39:49,087 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:39:49,088 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:39:50,332 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:39:50,333 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:39:50,336 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:39:50,336 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:43:50,422 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 15:43:52,501 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 15:43:54,959 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 15:43:54,960 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 15:43:55,557 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2017-06-02 15:43:56,544 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:43:56,544 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:43:56,547 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:43:56,547 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 15:56:57,303 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:56:57,305 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 15:56:57,306 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 15:56:57,306 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:00:45,103 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:00:45,103 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:00:45,105 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:00:45,105 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:06:04,612 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:06:04,613 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:06:04,616 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:06:04,616 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:08:16,368 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:08:16,368 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:08:16,370 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:08:16,371 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:08:35,740 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:08:35,742 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:08:35,745 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:08:35,745 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:09:28,098 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:09:28,099 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:09:28,101 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:09:28,101 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:11:16,393 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:11:16,393 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:11:16,399 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:11:16,399 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:12:00,104 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:12:00,105 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:12:00,107 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:12:00,107 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:15:33,812 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:15:33,813 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 16:15:33,815 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 16:15:33,815 [Worker-70] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 16:17:28,249 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 16:17:28,270 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 16:17:28,272 [Worker-74] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 16:17:28,283 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 17:11:02,779 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:11:02,781 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:11:02,784 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:11:02,785 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:11:16,599 [Worker-85] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 17:11:18,295 [Worker-85] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 17:11:19,225 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 17:11:19,227 [Worker-85] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 17:11:19,856 [Worker-85] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-06-02 17:11:22,601 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:11:22,602 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:11:22,605 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:11:22,605 [Worker-80] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:16:19,681 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:16:19,681 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:16:19,683 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:16:19,684 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:18:47,363 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:18:47,363 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:18:47,367 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:18:47,368 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:23:16,686 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:23:16,687 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:23:16,690 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:23:16,690 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:23:27,188 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:23:27,188 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:23:27,190 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:23:27,190 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:24:21,542 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:24:21,542 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:24:21,545 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:24:21,546 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:29:28,546 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:29:28,547 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:29:28,552 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:29:28,553 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:32:17,359 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:32:17,360 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:32:17,362 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:32:17,363 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:32:30,467 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 17:32:32,748 [Worker-83] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 17:32:33,800 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 17:32:33,801 [Worker-83] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 17:32:34,445 [Worker-83] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2017-06-02 17:32:35,446 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:32:35,447 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 17:32:35,449 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 17:32:35,449 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 17:42:48,381 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 17:42:48,433 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 17:42:48,436 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 17:42:48,468 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 17:49:05,174 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 17:49:05,194 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 17:49:05,197 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 17:49:05,215 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 17:55:53,520 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 17:55:53,539 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 17:55:53,542 [Worker-83] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 17:55:53,561 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 18:03:17,898 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 18:03:17,913 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 18:03:17,916 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 18:03:17,932 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 18:35:55,476 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:35:55,478 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:35:55,480 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:35:55,480 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:42:22,555 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:42:22,555 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:42:22,559 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:42:22,559 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:44:29,646 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:44:29,646 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:44:29,652 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:44:29,653 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:46:01,437 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:46:01,438 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:46:01,440 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:46:01,441 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:46:01,549 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 18:46:01,564 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 18:46:01,566 [Worker-110] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 18:46:01,583 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 18:46:25,949 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:46:25,949 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:46:25,951 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:46:25,951 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:46:26,032 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 18:46:26,052 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 18:46:26,055 [Worker-118] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 18:46:26,103 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 18:46:31,887 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:46:31,887 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:46:31,893 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:46:31,894 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:47:27,330 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:47:27,331 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:47:27,333 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:47:27,334 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:48:01,195 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:48:01,195 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:48:01,197 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:48:01,197 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:48:43,634 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:48:43,635 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:48:43,637 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:48:43,638 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 18:49:11,150 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:49:11,151 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 18:49:11,153 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 18:49:11,154 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 19:01:39,487 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:01:39,508 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:01:39,511 [Worker-128] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:01:39,527 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:01:46,645 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:01:46,658 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:01:46,660 [Worker-129] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:01:46,672 [Worker-129] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:02:03,191 [Worker-129] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 19:02:19,411 [Worker-129] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 19:02:21,299 [Worker-129] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 19:02:21,300 [Worker-129] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 19:02:22,241 [Worker-129] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 19 sec
+2017-06-02 19:02:22,270 [Worker-122] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 19:02:24,613 [Worker-122] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 19:02:25,393 [Worker-122] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationRestServices:0.0.1-SNAPSHOT @ E:\Moni\CollaborationRestServices\pom.xml.
+2017-06-02 19:02:33,767 [Worker-122] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 19:02:33,768 [Worker-122] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 19:02:34,121 [Worker-122] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/main/java
+2017-06-02 19:02:34,122 [Worker-122] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CollaborationRestServices/src/main/resources
+2017-06-02 19:02:34,124 [Worker-122] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/test/java
+2017-06-02 19:02:37,187 [Worker-122] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CollaborationRestServices
+2017-06-02 19:02:37,198 [Worker-122] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 14 sec
+2017-06-02 19:02:38,541 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:02:38,541 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 19:02:38,544 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:02:38,545 [Worker-133] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 19:02:39,585 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:02:39,615 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:02:39,617 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:02:39,623 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:02:39,624 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CollaborationRestServices
+2017-06-02 19:02:39,624 [Worker-127] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CollaborationRestServices
+2017-06-02 19:02:39,666 [Worker-127] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:15:10,994 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:15:10,995 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 19:15:10,996 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:15:10,997 [Worker-141] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 19:15:26,194 [Worker-139] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 19:15:26,568 [Worker-139] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-02 19:15:27,427 [Worker-139] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-02 19:15:27,435 [Worker-139] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-02 19:15:28,855 [Worker-139] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2017-06-02 19:15:29,976 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:15:29,976 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 19:15:29,978 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:15:29,979 [Worker-144] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 19:32:24,321 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:32:24,342 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:32:24,344 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:32:24,359 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:32:30,845 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:32:30,857 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:32:30,860 [Worker-150] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:32:30,872 [Worker-150] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:33:01,406 [Worker-157] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-02 19:33:01,838 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationRestServices:0.0.1-SNAPSHOT @ E:\Moni\CollaborationRestServices\pom.xml.
+2017-06-02 19:33:05,464 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/main/java
+2017-06-02 19:33:05,464 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CollaborationRestServices/src/main/resources
+2017-06-02 19:33:05,465 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationRestServices/src/test/java
+2017-06-02 19:33:08,616 [Worker-157] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for CollaborationRestServices
+2017-06-02 19:33:08,625 [Worker-157] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2017-06-02 19:33:09,836 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:33:09,849 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:33:09,851 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:33:09,865 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:33:09,865 [Worker-156] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CollaborationRestServices
+2017-06-02 19:33:09,866 [Worker-156] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CollaborationRestServices
+2017-06-02 19:33:09,873 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:36:28,217 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:36:28,221 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 19:36:28,224 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:36:28,224 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 19:36:30,052 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:36:30,065 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-02 19:36:30,068 [Worker-6] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-02 19:36:30,075 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-02 19:50:20,815 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:50:20,817 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 19:50:20,821 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:50:20,822 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-02 19:51:58,477 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:51:58,477 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-02 19:51:58,481 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-02 19:51:58,481 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-03 19:43:48,119 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-03 19:43:48,177 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-06-03 19:43:48,184 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-06-03 19:43:48,202 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationRestServices\src\test\resources
+2017-06-03 20:46:41,052 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 20:46:41,053 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-03 20:46:41,056 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 20:46:41,056 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources
+2017-06-03 20:48:28,678 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-06-03 20:48:38,190 [Worker-37] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.niit:CollaborationBackEnd:0.0.1-SNAPSHOT @ E:\Moni\CollaborationBackEnd\pom.xml.
+2017-06-03 20:48:40,060 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/main/java
+2017-06-03 20:48:40,062 [Worker-37] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CollaborationBackEnd/src/test/java
+2017-06-03 20:48:41,112 [Worker-37] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 12 sec
+2017-06-03 20:48:42,183 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 20:48:42,183 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\main\resources
+2017-06-03 20:48:42,185 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-06-03 20:48:42,187 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\Moni\CollaborationBackEnd\src\test\resources

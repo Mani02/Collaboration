@@ -1,0 +1,22 @@
+package com.niit.CollaborationBackEnd.testCase;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.niit.CollaborationBackEnd.Dao.BlogDao;
+import com.niit.CollaborationBackEnd.Dao.UserDao;
+import com.niit.CollaborationBackEnd.model.BlogComments;
+
+public class BlogCommentsTestCase {
+	@Autowired
+	public static AnnotationConfigApplicationContext context;
+
+	@Autowired
+	public static BlogComments blogComments;
+	
+	@Autowired
+	public static BlogDao blogDao;
+	
+	@Autowired
+	public static UserDao userDao;
+}

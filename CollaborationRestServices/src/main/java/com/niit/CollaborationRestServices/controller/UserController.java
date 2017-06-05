@@ -76,18 +76,18 @@ public class UserController {
 		}
 		return new ResponseEntity<List<User>>(users, HttpStatus.OK);
 	}
-	@PostMapping("/login/{emailId}/{password}")
-	public ResponseEntity<User> validate(@RequestBody User newuser,@PathVariable("emailId")String emailId,@PathVariable("password")String password){
-		logger.debug("->->->->method to validate userId and password");
-		if(userDao.validate(emailId, password)!=null){
-			userDao.getUserByEmail(emailId);
+	@PostMapping("/login")
+	public ResponseEntity<User> validate(@RequestBody User newuser){
+		System.out.println("->->->->method to validate userId and password");
+		user = userDao.getUserByEmail(newuser.getEmailId());
+		if(user!=null && (newuser.getPassword().equals(user.getPassword()))){
 			newuser.setErrorCode("200");
-			newuser.setErrorMessage("User found");
+			newuser.setErrorMessage("You have logged in successfully!!" + user.getUserName());
 		}else{
 			newuser.setErrorCode("404");
-			newuser.setErrorMessage("Not found");
+			newuser.setErrorMessage("Invalid Credentials...Please try again!");
 		}
-		return new ResponseEntity<User>(newuser,HttpStatus.OK);
+		return new ResponseEntity<User>(user,HttpStatus.OK);
 	}
 	
 	@PutMapping("/updateUser")
@@ -120,7 +120,7 @@ public class UserController {
 			return new ResponseEntity<User>(user, HttpStatus.OK);
 		}
 		logger.debug("->->->-> User exist wiht id" + id);
-		logger.debug(user.getName());
+		logger.debug(user.getUserName());
 		user.setErrorCode("200");
 		user.setErrorMessage("User exists with id " + id);
 		return new ResponseEntity<User>(user, HttpStatus.OK);

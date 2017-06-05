@@ -2,6 +2,10 @@ package com.niit.CollaborationBackEnd.testCase;
 
 import static org.junit.Assert.*;
 
+import java.time.LocalDate;
+import java.util.Calendar;
+import java.util.List;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,25 +45,22 @@ public class BlogTestCase {
 
 //	@Test
 //	public void createBlogTestCase() {
-//		blog.setTitle("Welcome Students");
-//		blog.setDescription("Welcoming message to new students of the academing year 2017-2018");
-//		blog.setContent(
-//				"Sharada University gives a warm welcome to the students of the new academing year of 2017-2018.You all are welcome to our college campus.Enjoy your new college life.Fell free to ask us anything important.Have a great campus life ahead.");
-//		blog.setStatus('N');
-//		blog.setLikes(123);
-//		blog.setViews(200);
-//		blog.setUser(userDao.getUserById(23));
+//		blog.setTitle("This is my third blog");
+//		blog.setDescription("3rd Blog");
+//		blog.setContent("3rd Blog");
+//		blog.setCreatedOn(new java.sql.Date(System.currentTimeMillis()));
+//		blog.setUser(userDao.getUserById(63));
 //		boolean flag = blogDao.insertBlog(blog);
 //		assertEquals("createBlogTestCase ", true, flag);
 //	}
 
-	 @Test public void updateBlogTestCase() {
-	 Blog blog = blogDao.getBlogById(47);
-	 //blog.setUser(userDao.getUserById(43));
-	 boolean flag = blogDao.updateBlog(blog);
-	 
-	
-	 assertEquals("updateBlogTestCase", true, flag); }
+//	 @Test public void updateBlogTestCase() {
+//	 Blog blog = blogDao.getBlogById(47);
+//	 //blog.setUser(userDao.getUserById(43));
+//	 boolean flag = blogDao.updateBlog(blog);
+//	 
+//	
+//	 assertEquals("updateBlogTestCase", true, flag); }
 	
 //	@Test
 //	public void deleteBlogTestCase(){
@@ -73,4 +74,9 @@ public class BlogTestCase {
 //		assertEquals("deleteBlogTestCase", flag, true);
 //	}
 
+	 @Test
+	 public void getAllBlogsTestCase() {
+	 List<Blog> blogs = blogDao.getAllBlog();
+	 assertEquals("getAllUsersTestCase", 8, blogs.size());
+	 }
 }

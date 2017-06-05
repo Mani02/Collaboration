@@ -1,0 +1,7 @@
+console.log("loaded user controller");
+myapp.controller('BlogController', [ 'BlogService', '$http', '$scope',
+		'$location', function(UserService, $http, $scope, $location) {
+			var self = this;
+			self.user = {};
+			
+		} ]);

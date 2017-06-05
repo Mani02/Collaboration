@@ -1,13 +1,18 @@
 package com.niit.CollaborationBackEnd.model;
 
+
 import java.sql.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import org.springframework.stereotype.Component;
@@ -31,25 +36,21 @@ public class Blog extends BaseDomain {
 
 	private char status;
 
-	private Date createdOn;
-
 	private String reason;
 	
 	private int views;
 	
 	private int likes;
 	
-	@JsonBackReference
-	@ManyToOne(cascade=CascadeType.ALL)
-	private User user;
+	private Date createdOn;
 	
-	public User getUser() {
-		return user;
-	}
-
-	public void setUser(User user) {
-		this.user = user;
-	}
+	@JsonBackReference
+	@ManyToOne(cascade=CascadeType.PERSIST)
+	private User user; 
+	
+	@JsonManagedReference(value="blogcomment_movement")
+	@OneToMany(fetch=FetchType.EAGER,mappedBy="blog",cascade=CascadeType.ALL)
+	private Set<BlogComments> blogComments = new HashSet<BlogComments>();
 
 	public int getBlogId() {
 		return blogId;
@@ -91,15 +92,6 @@ public class Blog extends BaseDomain {
 		this.status = status;
 	}
 
-
-	public Date getCreatedOn() {
-		return createdOn;
-	}
-
-	public void setCreatedOn(Date createdOn) {
-		this.createdOn = createdOn;
-	}
-
 	public String getReason() {
 		return reason;
 	}
@@ -107,7 +99,7 @@ public class Blog extends BaseDomain {
 	public void setReason(String reason) {
 		this.reason = reason;
 	}
-	
+
 	public int getViews() {
 		return views;
 	}
@@ -122,5 +114,31 @@ public class Blog extends BaseDomain {
 
 	public void setLikes(int likes) {
 		this.likes = likes;
+	}	
+
+	public Date getCreatedOn() {
+		return createdOn;
 	}
+
+	public void setCreatedOn(Date createdOn) {
+		this.createdOn = createdOn;
+	}
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public Set<BlogComments> getBlogComments() {
+		return blogComments;
+	}
+
+	public void setBlogComments(Set<BlogComments> blogComments) {
+		this.blogComments = blogComments;
+	}
+
+	
 }

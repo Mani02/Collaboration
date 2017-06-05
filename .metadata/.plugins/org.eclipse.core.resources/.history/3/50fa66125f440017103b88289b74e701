@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="myprojct">
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Sharada University</title>
+
+<!-- jquery and bootstrap -->
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- flip function -->
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script
+	src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
+</head>
+
+<body>
+
+	<!-- header -->
+	<div ng-include="'home/header.html'"></div>
+
+	<div ng-view></div>
+
+	<!-- angular and angular-route -->
+	<script src="lib/js/angular-1.6.4/angular.js"></script>
+	<script src="lib/js/angular-1.6.4/angular-route.js"></script>
+
+	<!-- Custom js files -->
+
+	<script src="app.js"></script>
+	<script src="js_pages/sign_in_sign_up.js"></script>
+	<script src="c_user/UserController.js"></script>
+	<script src="c_user/UserService.js"></script>
+
+
+
+	<!-- footer -->
+	<div ng-include="'home/footer.html'"></div>
+
+
+</body>
+
+</html>

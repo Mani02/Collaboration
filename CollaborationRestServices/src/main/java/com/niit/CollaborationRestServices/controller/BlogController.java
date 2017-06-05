@@ -40,7 +40,8 @@ public class BlogController {
 		logger.debug("->->->->calling method createBlog");
 		if (blogDao.getBlogById(blog.getBlogId()) == null) {
 			logger.debug("->->->->Blog is going to create with id:" + blog.getBlogId());
-
+				
+			  blog.setCreatedOn(new java.sql.Date(System.currentTimeMillis()));
 			  if (blogDao.insertBlog(blog) ==true)
 			  {
 				  blog.setErrorCode("200");
@@ -89,7 +90,7 @@ public class BlogController {
 			blog.setErrorMessage("Blog does not exist");
 			return new ResponseEntity<Blog>(blog, HttpStatus.OK);
 		}
-		logger.debug("->->->-> Blog exist wiht id" + id);
+		logger.debug("->->->-> Blog exist with id" + id);
 		logger.debug(blog.getTitle());
 		blog.setErrorCode("200");
 		blog.setErrorMessage("Blog exists with id " + id);
@@ -109,4 +110,5 @@ public class BlogController {
 		logger.debug("->->->-> Blog exist wiht id" + id);
 		return new ResponseEntity<List<Blog>>(blog, HttpStatus.OK);
 	}
+
 }

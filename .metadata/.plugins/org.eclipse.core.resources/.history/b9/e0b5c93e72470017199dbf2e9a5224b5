@@ -1,0 +1,16 @@
+package com.niit.CollaborationBackEnd.Dao;
+
+import java.util.List;
+
+import com.niit.CollaborationBackEnd.model.BlogComments;
+
+public interface BlogCommentsDao {
+	
+	public boolean insertBlogComments(BlogComments blogComment);
+
+	public boolean updateBlogComments(BlogComments blogComment);
+
+	public boolean deleteBlogComments(BlogComments blogComment);
+	
+	public List<BlogComments>  getAllBlogComments();
+}
