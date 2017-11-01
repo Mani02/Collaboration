@@ -8,7 +8,7 @@ body, h4 {
 }
 
 body {
-	background-image: url('resources/images/books1.jpg');
+	background-image: url('resources/images/books.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -28,55 +28,66 @@ body {
 	color: #333300;
 }
 
-.my-blogs, .new-blog {
+.my-blogs, .new-blog, .all-blog, .mng-req {
 	width: 100%;
 	height: 35px;
-	background-color: #cc9900;
+	background-color: #b8a9c9;
 	color: #333300;
 	border-radius: 6px;
 	font-size: 14px;
 }
 
-.like, .comment {
+.like, .comment, .mng-reqs {
 	width: 25%;
 	height: 35px;
-	background-color: #cc9900;
+	background-color: #b8a9c9;
 	color: #333300;
-	border-radius: 6px;
+	border-radius: 10px;
 	font-size: 14px;
+	float: right;
 }
 
 .btn {
 	width: 100%;
 	height: 35px;
-	background-color: #cc9900;
+	background-color: #b8a9c9;
 	color: #333300;
 	border-radius: 6px;
 }
-.all-blogs .write-new-blog{
-		color: #333300;
+
+.cmtbtn {
+	background-color: #b8a9c9;
+	color: black;
+	width: 10%;
+	height: 25px;
 }
+
+.all-blogs .write-new-blog {
+	color: #333300;
+}
+
 .img-circle {
 	border-radius: 15%;
 }
 
 .card {
-	box-shadow: 0 4px 8px 0 rgba(104, 104, 55, 1);
+	margin-top: 80px;
+	box-shadow: 0 4px 8px 0 rgba(184, 169, 201, 1);
 	transition: 0.3s;
 	border-radius: 10px; /* 10px rounded corners */
-	background-color: #ffffb3;
+	background-color: #eeac99;
 	font-color: #333300;
 	margin-bottom: 30px;
 }
 
-.heading .title .decp .comtent{
+.heading .title .decp .content {
 	margin-bottom: 6px;
 	color: #333300;
 	text-align: left;
 }
 
 .card:hover {
-	box-shadow: 0 8px 16px 0 rgba(104, 104, 55, 1);
+	box-shadow: 0 8px 16px 0 rgba(184, 169, 201, 1);
 }
 
 .list-title, .list-desc, .list-content, .list-userName {
@@ -84,9 +95,11 @@ body {
 	color: #333300;
 	text-align: left;
 }
-div{
+
+div {
 	color: #333300;
 }
+
 hr {
 	display: block;
 	margin-top: 0.5em;
@@ -97,6 +110,20 @@ hr {
 	border-width: 1px;
 	border-color: #333300;
 }
+
+.comment-date {
+	float: right;
+}
+
+.comment-by {
+	float: right;
+}
+
+.view-comment-list, .new-comment-form {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	background-color: white;
+}
 </style>
 </head>
 <body>
@@ -106,45 +133,60 @@ hr {
 			<div class="col-md-4">
 				<div class="user-profile card">
 					<div class="block">
-						<h4>{{blogCtrl.user.userName}}</h4>
+						<br>
+						<h4>{{blogCtrl.blog.moniUser.userName}}</h4>
 						<p>
 							<img alt="user-image" class="img-circle" scr="">
 						</p>
 						<hr>
 						<p>
-							<span class="glyphicon glyphicon-lock"></span>{{blogCtrl.user.role}}
+							<span class="glyphicon glyphicon-lock"></span>{{
+							blogCtrl.blog.moniUser.role}}
 						</p>
 
 						<p>
-							<span class="glyphicon glyphicon-home"></span>{{blogCtrl.user.address}}
+							<span class="glyphicon glyphicon-home"></span>{{
+							blogCtrl.blog.moniUser.address}}
 						</p>
 
 						<p>
-							<span class="glyphicon glyphicon-phone"></span>{{blogCtrl.user.mobile}}
+							<span class="glyphicon glyphicon-phone"></span>{{
+							blogCtrl.blog.moniUser.mobile}}
 						</p>
+						<br>
 					</div>
-				</div>
 
-				<div class="user-functions card">
-					<div class="row">
-						<div class="block col-md-12">
-							<button class="my-blogs" ng-click="blogCtrl.getMyBlogs()">My Blogs</button>
-							<button class="new-blog" ng-click="blogCtrl.writeBlog()">Write
-								Blogs</button>
-						</div>
+					<div
+						ng-show="currentUser.role!='Super Admin || currentUser.role==Super Admin'">
+						<button class="my-blogs" ng-click="blogCtrl.getMyBlogs()">My
+							Blogs</button>
 					</div>
-				</div>
+					<div
+						ng-show="currentUser.role!='Super Admin || currentUser.role==Super Admin'">
+						<button class="new-blog" ng-click="blogCtrl.writeBlog()">Write
+							Blogs</button>
+					</div>
+					<div
+						ng-show="currentUser.role!='Super Admin || currentUser.role==Super Admin'">
+						<button class="all-blog" ng-click="blogCtrl.getBlogList()">All
+							Blogs</button>
+					</div>
+					<div ng-show="currentUser.role=='Super Admin'">
+						<button class="mng-req" ng-click="blogCtrl.getBlogListAdmin()">Manage
+							Requests</button>
+					</div>
 
+				</div>
 			</div>
-
+			<!----------------------------------------All Blogs ----------------------------------------->
 			<div class="col-md-8">
 				<div class="all-blogs card"
 					data-ng-repeat="blg in blogCtrl.bloglist"
-					ng-show="blogCtrl.allBlogs">
+					ng-show="blg.status=='Accept'" ng-show="blogCtrl.allBlogs">
 					<div class="list-userName">
 						<img alt="user-image" class="img-circle" scr="">
 						<center>
-							<h4>{{blg.userName}}</h4>
+							<h4>{{blg.user.userName}}</h4>
 						</center>
 					</div>
 					<div class="list-title">
@@ -165,12 +207,15 @@ hr {
 					<div class="list-button">
 						<button class="like glyphicon glyphicon-thumbs-up"> Like
 						</button>
-						<button class="comment glyphicon glyphicon-send">Comment
-						</button>
+						<button class="comment glyphicon glyphicon-send"
+							ng-click="blogCtrl.showComments(blg)">Comment</button>
 					</div>
+
+
 				</div>
 			</div>
 
+			<!-------------------------------------------------New Blog ------------------------------------------------------------->
 			<div class="col-md-8">
 				<div class="write-new-blog card" ng-show="blogCtrl.newBlog">
 					<div class="heading">
@@ -179,19 +224,16 @@ hr {
 						</h4>
 					</div>
 					<div class="title card">
-						<input type="text" class="form-control"
-							placeholder="Your Title " id="name" required
-							ng-model="blogCtrl.blog.title">
+						<input type="text" class="form-control" placeholder="Your Title "
+							id="name" required ng-model="blogCtrl.blog.title">
 					</div>
 					<div class="descp card">
-						<textarea class="form-control"
-							placeholder="Your Description " id="desc" required
-							ng-model="blogCtrl.blog.description"></textarea>
+						<textarea class="form-control" placeholder="Your Description "
+							id="desc" required ng-model="blogCtrl.blog.description"></textarea>
 					</div>
 					<div class="content card">
-						<textarea class="form-control"
-							placeholder="Your Content " id="cont" required
-							ng-model="blogCtrl.blog.content"></textarea>
+						<textarea class="form-control" placeholder="Your Content "
+							id="cont" required ng-model="blogCtrl.blog.content"></textarea>
 					</div>
 					<div class="post-button">
 						<input type="submit" class="btn" value="Post Blog"
@@ -199,11 +241,13 @@ hr {
 					</div>
 				</div>
 			</div>
-			
-<!-- 			<div class="col-md-8">
-				<div class="show-my-blog card" data-ng-repeat="blg in blogCtrl.bloglist" ng-show="blogCtrl.myBlog">
+
+			<!----------------------------------------My Blogs ----------------------------------------->
+			<div class="col-md-8">
+				<div class="show-my-blog card" ng-show="blg.status=='Accept'"
+					data-ng-repeat="blg in blogCtrl.mybloglist"
+					ng-show="blogCtrl.myBlog">
 					<div class="my-blog-title">
-						<hr>
 						<p>
 							<strong>{{blg.title}}</strong>
 						</p>
@@ -217,10 +261,68 @@ hr {
 						<p>{{blg.content}}</p>
 						<br>
 					</div>
+					<div class="my-button">
+						<button class="like glyphicon glyphicon-thumbs-up"> Like
+						</button>
+						<button class="comment glyphicon glyphicon-send"
+							ng-click="blogCtrl.showComments(blg)">Comment</button>
+					</div>
 				</div>
-			</div> -->
-			
-			
+			</div>
+
+			<!--------------------------------Comments ---------------------------->
+			<div class="col-md-8" ng-show="blogCtrl.comments">
+
+				<div class="selected-Blog card">
+					<div class="blog-title">
+						<p>
+							<strong>{{blogCtrl.selectedBlog.title}}</strong>
+						</p>
+						<hr>
+					</div>
+					<div class="blog-desc">
+						<p>{{blogCtrl.selectedBlog.description}}</p>
+						<hr>
+					</div>
+					<div class="blog-cont">
+						<p>{{blogCtrl.selectedBlog.content}}</p>
+						<hr>
+					</div>
+				</div>
+
+				<!----------------CommentList --------------------->
+				<div class="view-comment-list"
+					data-ng-repeat="cmt in blogCtrl.commentlist">
+
+					<div class="comment-date card">{{cmt.commentDate}}</div>
+					<br>
+					<div class="comment-content card">
+						<p>{{cmt.blogComment}}</p>
+					</div>
+					<br>
+					<div class="comment-by card">-by
+						{{blogCtrl.commentlist.user.username}}</div>
+
+				</div>
+
+				<!--------------New Comment Form ------------------->
+				<div class="new-comment-form">
+
+					<div class="new-comment-body">
+						<input type="text" class="form-control" placeholder="Comment"
+							required ng-model="blogCtrl.blgComments.blogComment">
+					</div>
+					<div class="new-comment-button">
+						<input type="submit" class="cmtbtn" value="Send"
+							ng-click="blogCtrl.addComments()">
+					</div>
+					<br>
+
+				</div>
+
+			</div>
+
+
 		</div>
 	</div>
 </body>

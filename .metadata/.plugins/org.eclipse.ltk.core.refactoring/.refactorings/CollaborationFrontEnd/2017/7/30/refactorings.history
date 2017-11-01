@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CollaborationFrontEnd/WebContent/c_friend/Friend.html&apos; to &apos;FriendRequest.html&apos;" description="Rename resource &apos;Friend.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/c_friend/Friend.html" name="FriendRequest.html" stamp="1501065084986" updateReferences="true"/>
+</session>

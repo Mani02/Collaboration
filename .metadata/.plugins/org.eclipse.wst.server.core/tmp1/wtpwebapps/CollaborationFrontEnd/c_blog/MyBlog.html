@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+
+<body>
+
+<div ng-include="'./User/logout.html'"></div>
+<div ng-include="'./User/UserProfile.html'"></div>
+
+
+
+<div class="row" ng-init="blogCtrl.getmyBlog()">
+	<div class="col-md-9">
+		<div class="row" data-ng-repeat="blg in blogCtrl.myBlogList">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+					<div class="col-md-9">
+						<strong><a class="post-title" href=""><b>{{blg.title}}</b></a></strong>
+						</div>
+						<div class="col-md-3">
+							<b>By:{{blg.user.fullName}}</b>
+						</div>
+					
+					<div class="panel-body">
+                        <div class="row">
+                        <div class="col-md-12">
+                        <div class="row">
+                        <div class="col-md-9">
+						<p>{{blg.description}}</p></div>
+						<div class="col-md-3">Remarks:&nbsp{{blg.status}}&nbspbecause&nbsp{{blg.reason}}
+						</div>
+                     </div>
+                     </div>
+					</div>
+					<div class="panel-footer">
+
+
+						<span class="glyphicon glyphicon-comment" id="comment"></span>  <a
+							href ="#!blogcmmnt/{{blg.blogId}}">AddComments</a>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="col-md-3">
+		<div class="click">
+			<h1>
+				<b>Click to see Other links</b>
+			</h1>
+		</div>
+		<div ng-show="currentUser.role!='admin'">
+			<li><a href class="btn btn-success"
+				ng-click="blogCtrl.getmyBlog()"><span
+					class="glyphicon glyphicon-hand-up"></span>SeeMyBlog</a><br> <br></li>
+		</div>
+		<div ng-show="currentUser.role!='admin'">
+			<li><a href="#!postblog"  class="btn btn-success"><span
+					class="glyphicon glyphicon-hand-up"></span>PostBlog</a><br> <br></li>
+		</div>
+		<!-- <div ng-show="currentUser.role!='admin'">
+			<li><a href class="btn btn-success"
+				ng-click="blogCtrl.getBlogList()"><span
+					class="glyphicon glyphicon-hand-up"></span>SeeAllBlog</a><br> <br></li>
+		</div> -->
+		<div ng-show="currentUser.role=='admin'">
+			<li><a href class="btn btn-success"
+				ng-click="blogCtrl.getBlogListAdmin()"><span
+					class="glyphicon glyphicon-hand-up"></span>ManageRequest</a></li>
+		</div>
+	</div>
+
+
+</div>
+
+</body>
+
+</html>

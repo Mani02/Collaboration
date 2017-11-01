@@ -36,7 +36,7 @@ public class BlogController {
 	
 
 	@PostMapping("/createBlog")
-	public ResponseEntity<Blog> registerUser(@RequestBody Blog blog) {
+	public ResponseEntity<Blog> createBlog(@RequestBody Blog blog) {
 		logger.debug("->->->->calling method createBlog");
 		if (blogDao.getBlogById(blog.getBlogId()) == null) {
 			logger.debug("->->->->Blog is going to create with id:" + blog.getBlogId());
@@ -72,7 +72,7 @@ public class BlogController {
 		
 		if (blogs.isEmpty()) {
 			blog.setErrorCode("404");
-			blog.setErrorMessage("No users are available");
+			blog.setErrorMessage("No blogs are available");
 			blogs.add(blog);
 		}
 		return new ResponseEntity<List<Blog>>(blogs, HttpStatus.OK);
@@ -107,7 +107,7 @@ public class BlogController {
 			blog = (List<Blog>) new Blog(); //To avoid NLP - NullPointerException
 			return new ResponseEntity<List<Blog>>(blog, HttpStatus.OK);
 		}
-		logger.debug("->->->-> Blog exist wiht id" + id);
+		logger.debug("->->->-> Blog exist with id" + id);
 		return new ResponseEntity<List<Blog>>(blog, HttpStatus.OK);
 	}
 

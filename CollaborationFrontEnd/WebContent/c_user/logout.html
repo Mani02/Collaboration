@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	font-family: 'Open Sans', sans-serif;
+	background: #D5D8DC;
+}
+
+.logo i {
+	font-size: 31px;
+	margin-right: 4px;
+	word-spacing: 14px;
+}
+
+.logo {
+	color: white;
+	margin: 0;
+	font-size: 20px;
+	padding: 4px 0;
+	padding-bottom: 15px;
+}
+
+.login-bottom-text {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: white;
+	line-height: 19px;
+}
+
+header {
+	background: #ABEBC6;
+	padding-top: 20px;
+}
+
+header .form-group {
+	margin-bottom: 0px;
+}
+
+header .btn-header-login {
+	margin-bottom: 15px;
+}
+
+.login-main {
+	margin-top: 130px;
+}
+
+.multibox {
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+.login-main span {
+	font-size: 12px;
+}
+</style>
+</head>
+<body>
+	<div class="container" ng-controller="UserController as userCtrl">
+		<div class="row">
+			<div class="col-sm-10">
+				<h3>
+					<a href="#!afterlogin">ChatBox</a>
+				</h3>
+			</div>
+
+			<form name="form" role="form">
+
+				<div class="row">
+
+					<!-- Logout   -->
+
+
+					<div class="col-sm-2">
+						<div class="form-group">
+							<!-- <input type="submit" value="login" class="btn btn-default btn-header-login" ng-click="validateUser()"> -->
+							<a href class="btn btn-default" ng-click="userCtrl.logOut()">Logout</a>
+							<!-- <input type="submit" class="btn btn-primary" ng-click="userCtrl.validateUser" value="Login" > -->
+						</div>
+					</div>
+				</div>
+
+			</form>
+		</div>
+	</div>
+</body>
+</html>

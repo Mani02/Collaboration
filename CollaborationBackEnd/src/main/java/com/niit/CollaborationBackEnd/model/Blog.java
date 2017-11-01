@@ -34,7 +34,7 @@ public class Blog extends BaseDomain {
 
 	private String content;
 
-	private char status;
+	private String status;
 
 	private String reason;
 	
@@ -44,8 +44,8 @@ public class Blog extends BaseDomain {
 	
 	private Date createdOn;
 	
-	@JsonBackReference
-	@ManyToOne(cascade=CascadeType.PERSIST)
+	//@JsonBackReference
+	@ManyToOne(cascade=CascadeType.ALL)
 	private User user; 
 	
 	@JsonManagedReference(value="blogcomment_movement")
@@ -83,12 +83,12 @@ public class Blog extends BaseDomain {
 	public void setContent(String content) {
 		this.content = content;
 	}
-
-	public char getStatus() {
+	
+	public String getStatus() {
 		return status;
 	}
 
-	public void setStatus(char status) {
+	public void setStatus(String status) {
 		this.status = status;
 	}
 

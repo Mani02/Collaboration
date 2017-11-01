@@ -1,22 +1,19 @@
 package com.niit.CollaborationBackEnd.model;
 
 import java.sql.Date;
-import java.util.HashSet;
-import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
 import org.springframework.stereotype.Component;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Component
@@ -28,8 +25,11 @@ public class User extends BaseDomain{
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private int userId;
 	
-	private String userName;
+	private String fullName;
 	
+	@Column(unique=true)
+	private String userName;
+
 	private String role;
 	
 	private String password;
@@ -48,17 +48,21 @@ public class User extends BaseDomain{
 
 	private String mobile;
 	
-	@JsonManagedReference
-	@OneToMany(fetch=FetchType.EAGER,mappedBy="user", cascade=CascadeType.ALL)
-	private Set<Blog> blogs=new HashSet<Blog>();
+	@JsonManagedReference(value="userprofile_movement")
+	@OneToOne(cascade=CascadeType.PERSIST)
+	private UserProfile userProfile;
 	
-	public Set<Blog> getBlogs() {
-		return blogs;
-	}
-
-	public void setBlogs(Set<Blog> blogs) {
-		this.blogs = blogs;
-	}
+//	@JsonManagedReference
+//	@OneToMany(fetch=FetchType.EAGER,mappedBy="user", cascade=CascadeType.PERSIST)
+//	private Set<Blog> blogs=new HashSet<Blog>();
+//	
+//	public Set<Blog> getBlogs() {
+//		return blogs;
+//	}
+//
+//	public void setBlogs(Set<Blog> blogs) {
+//		this.blogs = blogs;
+//	}
 
 	public int getUserId() {
 		return userId;
@@ -68,6 +72,13 @@ public class User extends BaseDomain{
 		this.userId = userId;
 	}
 	
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
 
 	public String getUserName() {
 		return userName;
@@ -92,8 +103,6 @@ public class User extends BaseDomain{
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
-
 
 	public String getEmailId() {
 		return emailId;
@@ -150,8 +159,5 @@ public class User extends BaseDomain{
 	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
-	
-	
-	
 
 }

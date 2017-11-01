@@ -29,8 +29,12 @@ public class BlogCommentsController {
 
 	@PostMapping("/addComment")
 	public ResponseEntity<BlogComments> addComment(@RequestBody BlogComments blogComments) {
+		
 		logger.debug("->->->->calling method addComment");
 		if (blogCommentsDao.getBlogCommentsById(blogComments.getBlogCommentId()) == null) {
+			logger.debug("->->->->Blog is going to create with id:" + blogComments.getBlogCommentId());
+			
+			  blogComments.setCommentDate(new java.sql.Date(System.currentTimeMillis()));
 			if (blogCommentsDao.insertBlogComments(blogComments) == true) {
 				blogComments.setErrorCode("200");
 				blogComments.setErrorMessage("Thank you  for writing Comment. You have successfully written comment as "

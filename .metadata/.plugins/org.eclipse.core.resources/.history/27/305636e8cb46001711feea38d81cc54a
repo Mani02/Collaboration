@@ -1,7 +1,0 @@
-package com.niit.CollaborationBackEnd.model;
-
-@Component
-@Entity
-public class BlogComments {
-
-}

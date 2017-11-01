@@ -3,6 +3,7 @@
 
 <head>
 <meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sharada University</title>
 
 <!-- jquery and bootstrap -->
@@ -10,7 +11,24 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+<!------------cookies ------------->
 
+<!-- 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-cookies.js"></script> -->
+<style>
+body {
+	background-image:resources/images/books.jpg;
+	background-color: #339966;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+</style>
 </head>
 
 <body>
@@ -20,9 +38,10 @@
 
 	<div ng-view></div>
 
-	<!-- angular and angular-route -->
+	<!-- angular and angular-route and angular-cookies-->
 	<script src="lib/js/angular-1.6.4/angular.js"></script>
 	<script src="lib/js/angular-1.6.4/angular-route.js"></script>
+	<script src="lib/js/angular-1.6.4/angular-cookies.js"></script>
 
 	<!-- Custom js files -->
 
@@ -32,6 +51,9 @@
 
 	<script src="c_blog/BlogController.js"></script>
 	<script src="c_blog/BlogService.js"></script>
+	
+	<script src="c_job/JobController.js"></script>
+	<script src="c_job/JobService.js"></script>
 
 </body>
 <!-- footer -->

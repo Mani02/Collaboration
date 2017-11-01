@@ -1,0 +1,14 @@
+127.0.0.1 - - [02/Sep/2017:23:41:01 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:41:05 +0530] "GET /CollaborationFrontEnd/lib/js/bootstrap-3.3.7-dist/bootstrap.min.css HTTP/1.1" 404 1128
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:42:07 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:42:07 +0530] "GET /CollaborationFrontEnd/lib/js/bootstrap-3.3.7-dist/bootstrap.min.css HTTP/1.1" 404 1128
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:49:58 +0530] "POST /CollaborationRestServices//login HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:49:58 +0530] "POST /CollaborationRestServices//login HTTP/1.1" 200 330
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:53:10 +0530] "GET /CollaborationFrontEnd/about/about.html HTTP/1.1" 200 1342
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:53:11 +0530] "GET /CollaborationFrontEnd/resources/images/sharadau.jpg HTTP/1.1" 200 131552
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:54:25 +0530] "GET /CollaborationFrontEnd/lib/js/bootstrap-3.3.7-dist/bootstrap.min.css HTTP/1.1" 404 1128
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:55:29 +0530] "POST /CollaborationRestServices//login HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:55:29 +0530] "POST /CollaborationRestServices//login HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:58:43 +0530] "GET /CollaborationFrontEnd/lib/js/bootstrap-3.3.7-dist/bootstrap.min.css HTTP/1.1" 404 1128
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:59:08 +0530] "POST /CollaborationRestServices//login HTTP/1.1" 200 314
+0:0:0:0:0:0:0:1 - - [02/Sep/2017:23:59:09 +0530] "POST /CollaborationRestServices//login HTTP/1.1" 200 314

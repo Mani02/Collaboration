@@ -2,8 +2,6 @@ package com.niit.CollaborationRestServices.controller;
 
 import java.util.List;
 
-import javax.servlet.http.HttpSession;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,18 +38,17 @@ public class UserController {
 		logger.debug("->->->->calling method createUser");
 		if (userDao.getUserByEmail(user.getEmailId()) == null) {
 			logger.debug("->->->->User is going to create with id:" + user.getEmailId());
-
+			
+				
 			  if (userDao.insertUser(user) ==true)
 			  {
 				  user.setErrorCode("200");
-					user.setErrorMessage("Thank you  for registration. You have successfully registered as " + user.getRole());
+				  user.setErrorMessage("Thank you  for registration. You have successfully registered as " + user.getRole());
 			  }
 			  else
 			  {
 				  user.setErrorCode("404");
-					user.setErrorMessage("Could not complete the operatin please contact Admin");
-		
-				  
+				  user.setErrorMessage("Could not complete the operatin please contact Admin");			  
 			  }
 			
 			return new ResponseEntity<User>(user, HttpStatus.OK);
@@ -81,13 +78,15 @@ public class UserController {
 		System.out.println("->->->->method to validate userId and password");
 		user = userDao.getUserByEmail(newuser.getEmailId());
 		if(user!=null && (newuser.getPassword().equals(user.getPassword()))){
-			newuser.setErrorCode("200");
-			newuser.setErrorMessage("You have logged in successfully!!" + user.getUserName());
+			user.setErrorCode("200");
+			user.setErrorMessage("You have logged in successfully!!" /*+ user.getUserName()*/);
+			return new ResponseEntity<User>(user,HttpStatus.OK);
 		}else{
 			newuser.setErrorCode("404");
 			newuser.setErrorMessage("Invalid Credentials...Please try again!");
+			return new ResponseEntity<User>(newuser,HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<User>(user,HttpStatus.OK);
+
 	}
 	
 	@PutMapping("/updateUser")
@@ -120,7 +119,7 @@ public class UserController {
 			return new ResponseEntity<User>(user, HttpStatus.OK);
 		}
 		logger.debug("->->->-> User exist wiht id" + id);
-		logger.debug(user.getUserName());
+		//logger.debug(/*user.getUserName()*/);
 		user.setErrorCode("200");
 		user.setErrorMessage("User exists with id " + id);
 		return new ResponseEntity<User>(user, HttpStatus.OK);

@@ -1,0 +1,22 @@
+
+<head>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-9 card"></div>
+		<div class="col-md-3 card">
+			<br>
+			<h4><b><i>Other Links</i></b></h4>
+			<br>
+			<button class="my-blogs" ng-click="blogCtrl.getMyBlogs()">My
+				Blogs</button>
+			<button class="new-blog" ng-click="blogCtrl.writeBlog()">Write
+				Blogs</button>
+			<button class="all-blog" ng-click="blogCtrl.getBlogList()">All
+				Blogs</button>
+			<button class="pending-blog" ng-click="blogCtrl.getBlogList()">Pending
+				Blogs</button>
+		</div>
+	</div>
+</body>

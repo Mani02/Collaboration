@@ -1,5 +1,0 @@
-package com.niit.CollaborationRestServices.controller;
-
-public class BlogCommentsController {
-
-}

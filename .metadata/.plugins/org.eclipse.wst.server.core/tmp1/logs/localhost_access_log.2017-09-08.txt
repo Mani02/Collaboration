@@ -1,0 +1,2 @@
+127.0.0.1 - - [08/Sep/2017:08:31:34 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Sep/2017:08:31:38 +0530] "GET /CollaborationFrontEnd/lib/js/bootstrap-3.3.7-dist/bootstrap.min.css HTTP/1.1" 404 1128

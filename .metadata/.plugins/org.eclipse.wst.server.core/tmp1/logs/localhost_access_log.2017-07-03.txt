@@ -1,0 +1,3 @@
+127.0.0.1 - - [03/Jul/2017:10:32:32 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [03/Jul/2017:10:32:34 +0530] "GET /CollaborationRestServices/ HTTP/1.1" 200 5
+0:0:0:0:0:0:0:1 - - [03/Jul/2017:10:36:48 +0530] "GET /CollaborationRestServices/mySendRequests/63 HTTP/1.1" 200 642

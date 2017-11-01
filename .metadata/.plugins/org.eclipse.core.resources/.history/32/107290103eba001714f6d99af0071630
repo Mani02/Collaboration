@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+
+<title>User Profile</title>
+
+<style type="text/css">
+body, h4 {
+	font-family: "Open Sans", sans-serif;
+	color: #333300;
+	margin-bottom: 150px;
+}
+
+body {
+	background-image: url('resources/images/books.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.card {
+	margin-top: 80px;
+	box-shadow: 0 4px 8px 0 rgba(184, 169, 201, 1);
+	transition: 0.3s;
+	border-radius: 10px; /* 10px rounded corners */
+	background-color: #eeac99;
+	font-color: #333300;
+	margin-bottom: 30px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(184, 169, 201, 1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="user-profile card">
+					<div class="block">
+						<br>
+						<h4>{{blogCtrl.blog.moniUser.userName}}</h4>
+						<p>
+							<img alt="user-image" class="img-circle" scr="">
+						</p>
+						<hr>
+						<p>
+							<span class="glyphicon glyphicon-lock"></span>{{
+							blogCtrl.blog.moniUser.role}}
+						</p>
+
+						<p>
+							<span class="glyphicon glyphicon-home"></span>{{
+							blogCtrl.blog.moniUser.address}}
+						</p>
+
+						<p>
+							<span class="glyphicon glyphicon-phone"></span>{{
+							blogCtrl.blog.moniUser.mobile}}
+						</p>
+						
+						<p></p>
+						
+					</div>
+
+				</div>
+			</div>
+			<div class="col-md-8">
+			
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

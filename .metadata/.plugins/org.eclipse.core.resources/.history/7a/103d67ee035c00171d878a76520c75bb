@@ -1,0 +1,8 @@
+myapp.controller('BlogController',['$scope','$rootScope','BlogService',function($scope,$rootScope,BlogService){
+	var self = this;
+	
+	self.addBlog = function(){
+		console.log("inside the controller")
+		BlogService.addBlog();
+	}
+}])

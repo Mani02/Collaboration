@@ -30,7 +30,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 			dataSource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
 			dataSource.setUrl("jdbc:oracle:thin:@localhost:1521:XE");
 
-			dataSource.setUsername("MANI_01"); // Schema name
+			dataSource.setUsername("MONI_01"); // Schema name
 			dataSource.setPassword("Apee1");
 
 			return dataSource;

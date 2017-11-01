@@ -43,32 +43,35 @@ public class UserTestCase {
 
 	}
 
-	/*
-	 * @Test public void createUserTestCase() {
-	 * 
-	 * user.setName("Shreya"); user.setPassword("Sky1");
-	 * user.setRole("Student"); user.setStatus('A'); user.setGender('F');
-	 * user.setIsOnline('O'); user.setAddress("North Kolkata");
-	 * user.setEmailId("shreya@gmail.com"); user.setMobile("9004050123");
-	 * boolean flag = userDao.insertUser(user);
-	 * 
-	 * assertEquals("createUserTestCase ", true, flag); }
-	 * 
-	 * 
-	 * 
-	 */
+	
+	 @Test public void createUserTestCase() {
+	  
+	 user.setFullName("Debojyoti");
+	 user.setUserName("Dj1");
+	 user.setPassword("Roychoudhuri");
+	 user.setRole("Student");
+	 user.setStatus(' ');
+	 user.setGender("Male");
+	 user.setIsOnline('O'); 
+	 user.setAddress("Kolkata");
+	 user.setEmailId("debojyoti@gmail.com"); 
+	 user.setMobile("9094698600");
+	 boolean flag = userDao.insertUser(user);
+	  
+	 assertEquals("createUserTestCase ", true, flag); }
+	  
 	/*@Test
 	public void updateUserTestCase() {
-		User user = userDao.getUserById(23);
-		user.setUsername("Manideepa");
-		user.setPassword("Apee1");
+		User user = userDao.getUserById(63);
+		user.setFullName("Ramit Kundu");
+		user.setPassword("ramit@12");
 		user.setRole("Student");
-		user.setGender('F');
-		user.setAddress("North Kolkata");
-		user.setEmailId("mani02@gmail.com");
-		user.setMobile("9004022123");
-		user.setIsOnline('N');
-		user.setStatus('A');
+		user.setGender("Male");
+		user.setAddress("Kakurgachi, Kolkata-700054");
+		user.setEmailId("ramit.kundu@gmail.com");
+		user.setMobile("9834001002");
+		user.setIsOnline(' ');
+		user.setStatus(' ');
 
 		boolean flag = userDao.updateUser(user);
 
@@ -100,11 +103,11 @@ public class UserTestCase {
 	//
 	// }
 
-	 @Test
-	 public void getAllUsersTestCase() {
-	 List<User> users = userDao.getAllUser();
-	 assertEquals("getAllUsersTestCase", 4, users.size());
-	 }
+//	 @Test
+//	 public void getAllUsersTestCase() {
+//	 List<User> users = userDao.getAllUser();
+//	 assertEquals("getAllUsersTestCase", 5, users.size());
+//	 }
 
 	// @Test
 	// public void deleteUserTestCase() {

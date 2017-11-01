@@ -1,0 +1,6 @@
+myapp.service('BlogService',['$http','$q','RESTURL',function($http, $q, RESTURL){
+	this.addBlog = function(){
+		console.log("Add Blog being called")
+		
+	}
+}])

@@ -77,6 +77,6 @@ public class BlogTestCase {
 	 @Test
 	 public void getAllBlogsTestCase() {
 	 List<Blog> blogs = blogDao.getAllBlog();
-	 assertEquals("getAllUsersTestCase", 8, blogs.size());
+	 assertEquals("getAllBlogsTestCase", 13, blogs.size());
 	 }
 }

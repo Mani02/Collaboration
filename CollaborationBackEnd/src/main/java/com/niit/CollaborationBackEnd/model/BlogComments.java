@@ -1,5 +1,7 @@
 package com.niit.CollaborationBackEnd.model;
 
+import java.sql.Date;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -20,6 +22,7 @@ public class BlogComments extends BaseDomain{
 	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	private int blogCommentId;
 	private String blogComment;
+	private Date commentDate;
 	
 	@ManyToOne(cascade=CascadeType.PERSIST)
 	private User user;
@@ -42,6 +45,14 @@ public class BlogComments extends BaseDomain{
 
 	public void setBlogComment(String blogComment) {
 		this.blogComment = blogComment;
+	}
+
+	public Date getCommentDate() {
+		return commentDate;
+	}
+
+	public void setCommentDate(Date commentDate) {
+		this.commentDate = commentDate;
 	}
 
 	public User getUser() {

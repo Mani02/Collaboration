@@ -1,0 +1,167 @@
+
+<head>
+<style>
+body, h4 {
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 150px;
+}
+
+body {
+	background-image: url('resources/images/books1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+}
+
+.container {
+	margin-top: 100px;
+	margin-bottom: 150px;
+	color: #333300;
+}
+
+.h4 {
+	text-align: center;
+	color: #333300;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(184, 169, 201, 1);
+}
+
+div {
+	color: #333300;
+}
+
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	border-color: #333300;
+}
+
+.card {
+	margin-top: 80px;
+	box-shadow: 0 4px 8px 0 rgba(184, 169, 201, 1);
+	transition: 0.3s;
+	border-radius: 10px; /* 10px rounded corners */
+	background-color: #eeac99;
+	margin-bottom: 30px;
+}
+
+.add-job-btn, .view-job-btn, .job-btn{
+	width: 100%;
+	height: 35px;
+	background-color: #b8a9c9;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+.job-apply-btn{
+	width: 25%;
+	height: 35px;
+	background-color: #b8a9c9;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-4">
+				<div class="job-buttons card">
+					 <div class="block">
+						<br>
+						<h4>{{jobCtrl.job.moniUser.userName}}</h4>
+						<p>
+							<img alt="user-image" class="img-circle" scr="">
+						</p>
+						<hr>
+						<p>
+							<span class="glyphicon glyphicon-lock"></span>{{ jobCtrl.job.moniUser.role}}
+						</p>
+
+						<p>
+							<span class="glyphicon glyphicon-home"></span>{{ jobCtrl.job.moniUser.address}}
+						</p>
+
+						<p>
+							<span class="glyphicon glyphicon-phone"></span>{{ jobCtrl.job.moniUser.mobile}}
+						</p>
+						<br>
+					</div>
+					<button class="add-job-btn" ng-click="jobCtrl.writeJob()">Add Job</button>
+					<button class="view-job-btn" ng-click="jobCtrl.getAllJobs()">View Jobs</button>
+				</div>
+			</div>
+
+
+			<div class="col-md-8">
+			<!----------------------------------View All Jobs  --------------------------------------------->
+			
+				<div class="all-jobs card" data-ng-repeat="j in jobCtrl.jobList" ng-show="jobCtrl.allJobs">
+				
+					<div class="job-list-title">
+						<p>
+							<strong><i>{{j.title}}</i></strong>
+						</p>
+						<hr>
+					</div>
+					<div class="job-list-desc">
+						<p>{{j.jobDescription}}</p>
+						<hr>
+					</div>
+					<div class="job-posting-date">Posted On: {{j.postedDate}}</div>
+					<div class="job-list-req">
+						<p>{{j.requirement}}</p>
+						<hr>
+					</div>
+					<div class="job-list-status">
+						<p>{{j.status}}</p>
+						<br>
+					</div>
+					<div class="apply-button" ng-click="jobCtrl.applyForJob(j)">
+						<button class="job-apply-btn glyphicon glyphicon-ok" >Apply </button>
+					</div>
+				</div>
+				
+				<!------------------------------Add Job ------------------------------->
+				
+				<div class="add-job-form card" ng-show="jobCtrl.newJob">
+					<div class="heading card">
+						<h4>
+							<b><i>Post New Job</i></b>
+						</h4>
+					</div>
+					<div class="title card">
+						<textarea rows="2" cols="138" class="form-control" placeholder="Job Title" ng-model="jobCtrl.job.title"></textarea>
+					</div>
+					<div class="descp card">
+						<textarea rows="8" cols="138" class="form-control" placeholder="Job Description" ng-model="jobCtrl.job.jobDescription"></textarea>
+					</div>
+					<div class="reqrd card">
+						<textarea rows="4" cols="138" class="form-control" placeholder="Job Requirement" ng-model="jobCtrl.job.requirement"></textarea>
+					</div>
+					<div class="status card">
+						<textarea rows="1" cols="138" class="form-control" placeholder="Job Status" ng-model="jobCtrl.job.status"></textarea>
+					</div>
+					<div class="post-button" ng-click="jobCtrl.createJob()">
+						<button class="job-btn" >Post Job</button>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</body>

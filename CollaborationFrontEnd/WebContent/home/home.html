@@ -1,0 +1,108 @@
+<head>
+<style>
+body {
+	background-image:url('resources/images/books.jpg');
+	background-color: #339966;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+.gallery{
+	margin-top:80px;
+	margin-bottom:100px;
+}
+/* img {
+    width: 400px;height: 350px;
+} */
+.card {
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(184, 169, 201, 1);
+	transition: 0.3s;
+	border-radius: 10px;
+	background-color: #eeac99;
+	font-color: #333300;
+	margin-bottom: 20px;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(184, 169, 201, 1);
+}
+/* img{
+width:350px;
+height:250px;
+} */
+
+</style>
+</head>
+<body>
+
+<!-- jquery and bootstrap -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<div class="gallery">
+		<div class="row">
+			<div class="col-md-12">
+			<div class="user-profile card">
+					<div class="block">
+						<br>
+						<div ng-controller="UserController as userCtrl"><h4>{{userCtrl.moniUser.userName}}</h4></div>
+						<p>
+							<img alt="user-image" class="img-circle" scr="" width="280px" height="190px">
+						</p>
+						<hr>
+						<p>
+							<span class="glyphicon glyphicon-lock"></span>{{
+							userCtrl.moniUser.role}}
+						</p>
+
+						<p>
+							<span class="glyphicon glyphicon-home"></span>{{
+							userCtrl.moniUser.address}}
+						</p>
+
+						<p>
+							<span class="glyphicon glyphicon-phone"></span>{{
+							userCtrl.moniUser.mobile}}
+						</p>
+						<br>
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#!blog"> <img src="resources/images/blogs.jpg" class="img-rounded" alt="blogs" width="400px" height="350px">
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href=""> <img src="resources/images/friends.jpg" class="img-rounded" alt="friends" width="400px" height="350px">
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href=""> <img src="resources/images/Chat.png" class="img-rounded" alt="chat" width="400px" height="350px">
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#!job"> <img src="resources/images/jobs.jpg" class="img-rounded" alt="jobs" width="400px" height="350px">
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href=""> <img src="resources/images/forum.jpg" class="img-rounded" alt="forum" width="400px" height="350px">
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href=""> <img src="resources/images/events.jpg" class="img-rounded" alt="events" width="400px" height="350px">
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
